@@ -1,4 +1,4 @@
-import { RECEIVE_CURRENT_USER } from '../actions/sesion_actions';
+import { RECEIVE_CURRENT_USER } from '../actions/session_actions';
 
 const userReducer = (state = {}, action) => {
     Object.freeze(state);
